@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    background-image: url(https://www.neoteo.com/wp-content/uploads/2021/08/logo.gif);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffff
+    ;
+    
+}
+.header{
+    background-color: rgba(50, 50, 95, 0.459);
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+    
+
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+
+}
+.nav-menu-link:hover{
+    background-color: rgba(0, 0, 255, 0.363);
+    transition: 0.5s;
+}
+.nav-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+
+}
